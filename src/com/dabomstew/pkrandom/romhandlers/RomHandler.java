@@ -171,7 +171,7 @@ public interface RomHandler {
             boolean noEarlyWonderGuard, int levelModifier);
 
     public void legendaryTrainerPokes(boolean usePowerLevels, boolean weightByFrequency, boolean noLegendaries,
-        boolean noEarlyWonderGuard, int levelModifier);
+            boolean noEarlyWonderGuard, int levelModifier);
 
     public void rivalCarriesStarter();
 
@@ -387,8 +387,8 @@ public interface RomHandler {
     public void randomizeIngameTrades(boolean randomizeRequest, boolean randomNickname, boolean randomOT,
             boolean randomStats, boolean randomItem, CustomNamesSet customNames);
 
-    public void randomizeIngameTradeLegends(boolean randomizeRequest, boolean randomNickname, boolean randomOT,
-            boolean randomStats, boolean randomItem, CustomNamesSet customNames);
+    public void randomizeIngameTradeLegends(boolean randomizeRequest, boolean randomNickname,
+            boolean randomOT, boolean randomStats, boolean randomItem, CustomNamesSet customNames);
 
     public boolean hasDVs();
 

@@ -1963,6 +1963,7 @@
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+                            <Group type="102" alignment="0" attributes="0">
                               <Component id="tpTypeThemedRB" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -2021,7 +2022,7 @@
                               <Component id="tpNoLegendariesCB" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="tpNoEarlyShedinjaCB" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                          </Group>
                               <Component id="tpForceFullyEvolvedSlider" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -2083,7 +2084,7 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tpTypeThemedRBActionPerformed"/>
                   </Events>
                 </Component>
-                 <Component class="javax.swing.JRadioButton" name="tpLegendariesRB">
+                <Component class="javax.swing.JRadioButton" name="tpLegendariesRB">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="trainerPokesButtonGroup"/>
